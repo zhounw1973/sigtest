@@ -36,8 +36,6 @@ app_ACTG_test<- function(hc,p_a,type,G1,B,alpha){
   if(type==2){
     x=ma$age
   }
-  if(type==3)
-  {x=w}
   w <- as.matrix(w)
   wt <- w
   ########## estiamte nusanious parameter
